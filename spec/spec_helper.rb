@@ -91,10 +91,6 @@ module Customer
     def self.policy_class
       PostPolicy
     end
-
-    def policy_class
-      self.class.policy_class
-    end
   end
 end
 
@@ -142,7 +138,7 @@ class CommentsRelation
     @empty
   end
 
-  def model_name
+  def self.model_name
     Comment.model_name
   end
 end
