@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Generate application scope with `protected` attr_readers. (#616)
+
 ### Removed
 
 - Dropped support for Ruby end-of-life versions: 2.1 and 2.2.
